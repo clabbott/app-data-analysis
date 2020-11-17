@@ -6,3 +6,18 @@ Uploaded initial python Jupyter Notebook project files
 Have not started data collection
 11/8
 Scraped data from datafile, included datafile in repo, wrote up plan to clean data in file
+11/16
+General Changes:
+Imported Numpy
+Dataframe originally read from archive file? Changed it to simply the csv file for now.
+
+App Column (Cleaning Database):
+Dropped malformed data: "Life Made WI-Fi Touchscreen Photo Frame"
+Dropped exact duplicate names.
+
+Reviews Column (Cleaning Database):
+Converted to numeric
+
+Size Column (Cleaning Database):
+Replaced "Varies with device" value with NaN. 
+Converted strings to kb.
