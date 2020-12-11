@@ -21,3 +21,6 @@ Converted to numeric
 Size Column (Cleaning Database):
 Replaced "Varies with device" value with NaN. 
 Converted strings to kb.
+12/11
+Cleaned the rest of the dataframe except for the genres column 
+Might have submitted the Jupyter in a weird way, trying to fix that on the submit for 12/12 
