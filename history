@@ -37,3 +37,15 @@ I can do some of this stuff myself, just wanted your opinion before I messed wit
 Graphing was a lot harder than I thought it would be. There are a few directions we could go.
 Explained more in the notebook.
 
+12/12
+Did a lot of potential exploratory analysis with the aim to compare reviews and installs. 
+Separated the dataframes: 
+df- dataframe containing no duplicates, apps with multiple genres will only appear once with one of their genres. 
+  Use this when comparing the entire dataframe but not the genres.
+genre_df- dataframe containing duplicates, apps with multiple genres will appear twice. Do not use this for analysis of the entire dataframe.
+ml_df- dataframe containing no duplicates but dummy variables for content rating and genres. Use for machine learning. May not be tidy according to teli's standards. 
+Did a simple and poor linear regresion line on "Installs vs Review"
+Thoughts: 
+- Would eliminating outliers make the data easier to use? 
+- What is our target variable that we want to predict? 
+More info in notebook
