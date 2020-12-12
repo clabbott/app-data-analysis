@@ -24,3 +24,16 @@ Converted strings to kb.
 12/11
 Cleaned the rest of the dataframe except for the genres column 
 Might have submitted the Jupyter in a weird way, trying to fix that on the submit for 12/12 
+12/12
+Formatted everything to make it a bit more organized.
+Added introduction. Separated data collection into it's own code block and also gave it a blurb.
+Based my writing off the examples in the syllabus. Prose makes up a good amount of our grade so lmk what you think.
+We can change it if our project develops as we look more into data.
+
+I've left Data Processing as it is for now. I think splitting up the huge blocks for column may be easier on the eyes.
+Also I understand why genre and content rating are split like they are, but I'm worried Teli may expect a "Tidy" dataset for that part.
+I can do some of this stuff myself, just wanted your opinion before I messed with what you have.
+
+Graphing was a lot harder than I thought it would be. There are a few directions we could go.
+Explained more in the notebook.
+
