@@ -53,6 +53,7 @@ More info in notebook
 Created three new chart groups playing around with a more categorical approach to installs.
 1st chart is a pie chart that breaks down 10^x bucket percentage which is used to inform the other charts.
 2nd and 3rd look at how rating and category change at different install percentiles.
-The results are honestly disappointing, but still useful. Rating and Category distributions don't change at different percentiles of installs.
-So we are left with little attributes to predict installs in categorical methods like trees. Rating and Category are ineffective and number of rating can be unreliable.
+The results are a bit disappointing, but still useful.
+Rating distributions only change slightly with minimums and outliers. Category changes with some categories being left of higher percentiles, but still similar across the board.
+Overall, I think what little atributes we have aren't decisive enough to make a decision tree.
 Ratings being our target variable might be our best bet.
