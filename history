@@ -49,3 +49,10 @@ Thoughts:
 - Would eliminating outliers make the data easier to use? 
 - What is our target variable that we want to predict? 
 More info in notebook
+12/13
+Created three new chart groups playing around with a more categorical approach to installs.
+1st chart is a pie chart that breaks down 10^x bucket percentage which is used to inform the other charts.
+2nd and 3rd look at how rating and category change at different install percentiles.
+The results are honestly disappointing, but still useful. Rating and Category distributions don't change at different percentiles of installs.
+So we are left with little attributes to predict installs in categorical methods like trees. Rating and Category are ineffective and number of rating can be unreliable.
+Ratings being our target variable might be our best bet.
