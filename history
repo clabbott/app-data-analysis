@@ -60,3 +60,8 @@ Ratings being our target variable might be our best bet.
 12/15 (early morning)
 Did most of data exploration a little behind schedule. Feel free to insert your analysis anywhere in there where you think it would fit, I was just going over all the variables
 and how they interact. Today I will finish up the exploration and let you take a shot at ML first because you had some good ideas. More in the doc. 
+12/15 (afternoon)
+Finished up data exploration except for rating and comparing installs/reviews. You had a really good take on those variables, could you cover those tonight? 
+We hit a gold mine with the "Last Updated" variable, theres a clear trend for apps to do better the more recently they were updated. That will be very useful in ML. 
+Ratings turned out to be a bust, its the same for everything, just a straight average of 4.1ish. Depending on what you find out with comparing reviews and installs,
+I think trying to predict number of installs is our best bet. 
