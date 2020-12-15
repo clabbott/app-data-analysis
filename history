@@ -57,3 +57,6 @@ The results are a bit disappointing, but still useful.
 Rating distributions only change slightly with minimums and outliers. Category changes with some categories being left of higher percentiles, but still similar across the board.
 Overall, I think what little atributes we have aren't decisive enough to make a decision tree.
 Ratings being our target variable might be our best bet.
+12/15 (early morning)
+Did most of data exploration a little behind schedule. Feel free to insert your analysis anywhere in there where you think it would fit, I was just going over all the variables
+and how they interact. Today I will finish up the exploration and let you take a shot at ML first because you had some good ideas. More in the doc. 
