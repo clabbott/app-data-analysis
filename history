@@ -65,3 +65,19 @@ Finished up data exploration except for rating and comparing installs/reviews. Y
 We hit a gold mine with the "Last Updated" variable, theres a clear trend for apps to do better the more recently they were updated. That will be very useful in ML. 
 Ratings turned out to be a bust, its the same for everything, just a straight average of 4.1ish. Depending on what you find out with comparing reviews and installs,
 I think trying to predict number of installs is our best bet. 
+12/16 (Late Night AM)
+Started regression in ML and it was kind of a pain to work with as predicted.
+Ended up going with Reviews as target instead of installs because
+- Doubt decision trees will work as discussed on my 12/13
+- Lack of diverse numbers may prove hard to get useful residuals to improve regression models.
+If you figure something better out feel free.
+
+I really wanted to find a regression method that would account for our exponential growth in our data.
+Couldn't find one, but I feel like we are missing something, also couldn't figure out logarithmic regression so that might be the key idk.
+Instead I scaled down the data by taking the log of reviews and installs as it seemed like the easy way to get the job done and we got a decent looking regression line.
+I think there are some downsides to this like tightening our data might be misrepresenting (a error of 3 is in reality an error of 1000).
+
+I tried some residual violin graphs to try to expand on your exploratory analysis and prove that we can limit error by separating some of the categories.
+Sadly none of the graphs seemed to be skewed in either direction. But, maybe you can make better light of the graphs?
+It might be a symptom of tightening our data or maybe we just have a serious outlier problem. 
+Also some of your dummy variables have 2 in them, you may be counting categories in the same genre twice? Is this on purpose?
