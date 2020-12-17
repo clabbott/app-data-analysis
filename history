@@ -81,3 +81,21 @@ I tried some residual violin graphs to try to expand on your exploratory analysi
 Sadly none of the graphs seemed to be skewed in either direction. But, maybe you can make better light of the graphs?
 It might be a symptom of tightening our data or maybe we just have a serious outlier problem. 
 Also some of your dummy variables have 2 in them, you may be counting categories in the same genre twice? Is this on purpose?
+
+12/17 (Late Night AM)
+Wow, what a doozy.
+4 different models and I've seen each one preform better then another depending on the training sample.
+Good News though: I found a bug in your Multiple Linear Regression Model error calc, you forgot to add the intercept. 
+It now preforms better than the normal linear regression model a lot more consistently
+
+Moving forward it's important to keep in mind that there are two possible changes we can make to our base Linear Regression Model:
+ - Making it multi variable
+ - Using Log Reviews and Log Installs instead
+
+My theories on why some preform better than others:
+Multivariable sometimes overfits the training dataset leading to higher error in the test dataset
+Most of the time Log preforms worse expect for then the training data set dips heavily into the (< 10^4) range
+
+Some side worries I haven't figured out (Bugs?):
+For some reason your poly regression preforms a lot worse than the linear model now, I have no idea why don't think I even touched it
+For some reason any model with "Last Updated" as a variable is the same
