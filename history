@@ -99,3 +99,12 @@ Most of the time Log preforms worse expect for then the training data set dips h
 Some side worries I haven't figured out (Bugs?):
 For some reason your poly regression preforms a lot worse than the linear model now, I have no idea why don't think I even touched it
 For some reason any model with "Last Updated" as a variable is the same
+12/18 (Henry's Last Commit?)
+- Updated Imported Library descriptions. 
+  Left out scipy.optimize and statsmodel.api bc their unused, idk why they are there and I was afraid of breaking things by removing them. You can try removing them if you want.
+- Added a bit more prose to Data Processing. Also split up the code blocks because it was annoying me lol.
+- Reorganized Machine Learning a bit.
+  - Moved "Determining What The Response Variable Will Be" above our regression model and went in a little more depth and also made it not dependant on information explained below.
+  - Original organization of "linear regression" and "Working With Exponentially Increasing Values" didn't really make sense.
+    Restructured and added to both sections showing our exponentially increasing values, how we can take the log to make our graph look better but explain why it didn't preform better.
+- Added a bit in the conclusion encouraging future exploration. Should help towards Motivation and Other Resources in the rubric.
